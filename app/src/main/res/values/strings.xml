@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" project="displayaccess">
+
+    <string name="app_name" description="App name">Display Access</string>
+    <string name="settings_title" description="Settings screen title">Settings</string>
+    <string name="system_section" description="System section title">System</string>
+    <string name="devices_section" description="Devices section title">Devices</string>
+    <string name="samples_tab" description="Samples tab label">Samples</string>
+    <string name="settings_tab" description="Settings tab label">Settings</string>
+    <string name="no_devices_found" description="No devices text">No devices found</string>
+    <string name="device_preparing" description="Preparing device status">Preparing</string>
+
+    <!-- Connect Screen -->
+    <string name="connect_title" description="Connect screen title">Connect</string>
+    <string name="register_button" description="Register button">Connect my glasses</string>
+    <string name="unregister_button" description="Unregister button">Disconnect</string>
+    <string name="update_firmware_button" description="Open firmware update">Update firmware</string>
+    <string name="update_dat_app_button" description="Open DAT app update on glasses">Update app on glasses</string>
+    <string name="compatibility_issue_title" description="Compatibility issue title">Compatibility issue</string>
+    <string name="compatibility_issue_firmware_message" description="Firmware compatibility issue message">Your glasses firmware needs an update before Display Access can start.</string>
+    <string name="compatibility_issue_dat_app_message" description="DAT app compatibility issue message">The app on your glasses needs an update before Display Access can start.</string>
+    <string name="compatibility_issue_both_message" description="Firmware and DAT app compatibility issue message">Your glasses firmware and app need updates before Display Access can start.</string>
+
+    <!-- Registration States -->
+    <string name="status_unavailable" description="Unavailable state">Unavailable</string>
+    <string name="status_available" description="Available state">Available</string>
+    <string name="status_registering" description="Registering state">Connecting...</string>
+    <string name="status_unregistering" description="Disconnecting state">Disconnecting...</string>
+    <string name="status_registered" description="Registered state">Registered</string>
+
+    <!-- Device States -->
+    <string name="device_connected" description="Device connected">Connected</string>
+    <string name="device_disconnected" description="Device disconnected">Disconnected</string>
+    <string name="device_update_required" description="Device update required">Update required</string>
+
+    <!-- Samples -->
+    <string name="samples_title" description="Samples list title">Sample apps</string>
+    <string name="sample_car_maintenance" description="Car maintenance sample">Car maintenance guide</string>
+    <string name="sample_car_maintenance_desc" description="Car maintenance description">A sample display experience that guides you through a car maintenance task step by step.</string>
+    <string name="try_it_button" description="Try it button">Try it</string>
+
+    <!-- Voice Pipeline -->
+    <string name="voice_tab" description="Voice tab label">Voice</string>
+    <string name="voice_pipeline_title" description="Voice pipeline screen title">Voice pipeline</string>
+    <string name="voice_listening_status" description="STT listening status label">Listening</string>
+    <string name="voice_paused_status" description="STT paused status label">Paused (TTS speaking)</string>
+    <string name="voice_stopped_status" description="STT stopped status label">Stopped</string>
+    <string name="voice_partial_transcript_label" description="Partial transcript section label">Partial transcript</string>
+    <string name="voice_final_transcript_label" description="Final transcript section label">Final transcript</string>
+    <string name="voice_no_transcript" description="Placeholder when no transcript is available">(none yet)</string>
+    <string name="voice_start_listening_button" description="Start listening button">Start listening</string>
+    <string name="voice_stop_listening_button" description="Stop listening button">Stop listening</string>
+    <string name="voice_speak_final_button" description="Speak back the final transcript button">Speak final transcript</string>
+    <string name="voice_resolving_destination" description="Resolving destination status">Looking up destination…</string>
+    <string name="voice_parsed_intent_label" description="Parsed place intent section label">Parsed intent</string>
+    <string name="voice_destination_label" description="Selected destination section label">Selected destination</string>
+    <string name="voice_no_destination" description="Placeholder when no destination is selected">(none yet)</string>
+
+    <!-- Navigation status -->
+    <string name="nav_status_label" description="Navigation status section label">Navigation status</string>
+    <string name="nav_no_snapshot" description="Placeholder when no navigation snapshot is available">(waiting for location and heading)</string>
+    <string name="nav_minimap_label" description="Mini-map status section label">Mini-map</string>
+    <string name="nav_minimap_no_target" description="Placeholder when there is no destination for the mini-map">(no destination selected)</string>
+    <string name="nav_minimap_fallback_suffix" description="Suffix appended when the mini-map is in fallback mode"> (fallback)</string>
+
+</resources>

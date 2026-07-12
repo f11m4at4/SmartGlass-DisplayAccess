@@ -1,0 +1,1 @@
+docs\tasks\01-feature-skeleton.md 에 디버그를 위한 상태 값을 표시하는 text ui 추가와 상태값을 text ui 에 표시 하는 내용을 추가해줘.
